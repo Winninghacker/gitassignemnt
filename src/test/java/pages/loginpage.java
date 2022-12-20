@@ -13,7 +13,7 @@ public loginpage(WebDriver driver) {
 	this.driver=driver;
 }
 public void enterusrname(String userid) {
-	driver.findElement(txt_userid).sendKeys(userid);
+	         driver.findElement(txt_userid).sendKeys(userid);
 	
 }
 public void enterpassword(String password) {
@@ -26,9 +26,9 @@ public void clickLogin() {
 //	driver.findElement(btn_logout).click();
 //}
 public void loginvaliduser(String userid,String password) {
-	driver.findElement(txt_userid).sendKeys(userid);
-	driver.findElement(txt_password).sendKeys(password);
-	driver.findElement(btn_login).click();
+	    driver.findElement(txt_userid).sendKeys(userid);
+	    driver.findElement(txt_password).sendKeys(password);
+	    driver.findElement(btn_login).click();
 
 }
 }
